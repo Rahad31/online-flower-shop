@@ -63,7 +63,7 @@ ul li a:hover{
 .banner div {
     width: 600px;
 }
-.header-des {
+.header-descrip {
     display: flex;
     flex-direction: column;
     gap: 20px;
