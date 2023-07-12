@@ -182,8 +182,9 @@ line-height: 30px;
 }
 
 .facility {
-    width: 80vw;
-    height: 250px;
+    width: 1440px;
+    height: 320px;
+    flex-shrink: 0;
     background-color: #f4f4f4;
     margin: 40px auto 100px;
     border-radius: 20px;
@@ -256,11 +257,14 @@ span {
     gap: 10px;
 }
 .image img {
-    width: 250px;
+    width: 342px;
+height: 396px;
+flex-shrink: 0;
 }
 .latest-deals {
-    width: 70vw;
-    height: 40vh;
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
     margin: auto;
     background-image: url("./images/Rectangle\ 9.png");
     background-position: center;
