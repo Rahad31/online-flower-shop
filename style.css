@@ -274,6 +274,9 @@ span {
     justify-content: center;
     gap: 25px;
 }
+.para1{
+    text-align: center;
+}
 .latest-deals input {
     width: 500px;
     height: 40px;
