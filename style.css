@@ -222,9 +222,7 @@ span {
     width: 35%;
     gap: 40px;
 }
-.deal-title {
-    font-size: 35px;
-}
+
 .left-part .para {
     width: 450px;
     text-align: center;
@@ -308,15 +306,4 @@ footer .para {
 footer p {
     text-align: center;
     width: 500px;
-}
-.gift-container{
-    display: flex;
-    height: 70vh;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-.gift-container .para{
-    width: 350px;
-    margin: 20px 0px;
 }
