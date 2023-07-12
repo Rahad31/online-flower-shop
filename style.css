@@ -210,12 +210,13 @@ span {
     color: rgb(229, 84, 115);
 }
 .discount {
-    background-color: #fef6f8;
-    height: 480px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
     display: flex;
     justify-content: space-evenly;
+    height: 620px;
 }
-.left-part {
+.left {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -224,18 +225,17 @@ span {
     gap: 40px;
 }
 
-.left-part .para {
+.left .para {
     width: 450px;
     text-align: center;
 }
-.right-part {
+.right {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
-.bouquet img {
-    width: 280px;
-}
+
 .item-container {
     height: 80vh;
     display: flex;
@@ -243,8 +243,15 @@ span {
     justify-content: center;
     align-items: center;
 }
+
 .instagram {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
     font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 .item-container .para {
     width: 450px;
@@ -258,8 +265,8 @@ span {
 }
 .image img {
     width: 342px;
-height: 396px;
-flex-shrink: 0;
+    height: 396px;
+    flex-shrink: 0;
 }
 .latest-deals {
     width: 1440px;
@@ -277,18 +284,32 @@ flex-shrink: 0;
     gap: 25px;
 }
 .para1{
+    
+    color: rgba(39, 39, 39, 0.60);
     text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 .latest-deals input {
     width: 500px;
     height: 40px;
     border-radius: 10px;
 }
-
+.deal-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
 /* footer part  */
 
 footer {
-    height: 50vh;
+    height: 449px;
     background-color: black;
     margin-top: 100px;
     display: flex;
@@ -298,6 +319,10 @@ footer {
 footer h1 {
     color: white;
     text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 .copy {
     color: gray;
